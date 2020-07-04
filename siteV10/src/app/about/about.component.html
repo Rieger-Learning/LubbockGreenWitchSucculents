@@ -1,1 +1,10 @@
-<p>about works!</p>
+<p>
+  This is what i'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
+</p>
+
+
+<ul>
+  <li *ngFor="let goal of this.goals;">
+    {{goal}}
+  </li>
+</ul>
