@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('lubbock-green-witch-succulents App', () => {
+describe('site App', () => {
   let page: AppPage;
 
   beforeEach(() => {
