@@ -13,11 +13,13 @@ const routes: Routes = [
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    data: {animation: 'slideInAnimation'}
   },
   {
     path: 'todo',
-    component: TodoComponent
+    component: TodoComponent,
+    data: {animation: 'slideInAnimation'}
   }
 ];
 
