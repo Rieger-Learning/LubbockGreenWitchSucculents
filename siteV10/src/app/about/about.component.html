@@ -1,10 +1,28 @@
-<p>
-  This is what i'm all about. <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
-</p>
+<div class="container color-dark">
+  <div class="col">
+    <p class="head"> Experienced Grower Located in Lubbock Texas</p>
+  </div>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p class="sm">
+      Growing succulents is a peace and mindfulness hobby that connects you with nature.
+      There are a number of plants that improve air quality and have healing properties.
+      Aloe vera is a common household plant for southerners in the know. Sunburns and abrasions
+      are no match for the mighty Aloe vera plant.
+    </p>
+    <p class="sm">
+      But succulents are not only practical they are also a great way to liven up a space.
+    </p>
+    <ul>
+      These are my goals:
+      <li *ngFor="let goal of this.goals;">
+        <br/>{{goal}}
+      </li>
+    </ul>
+
+  </div>
+</div>
 
 
-<ul>
-  <li *ngFor="let goal of this.goals;">
-    {{goal}}
-  </li>
-</ul>
+
