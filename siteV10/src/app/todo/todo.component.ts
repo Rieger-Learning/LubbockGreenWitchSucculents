@@ -14,7 +14,7 @@ export class TodoComponent implements OnInit {
   itemCount: number;
   btnText = 'Add an item';
   goalText = '';
-  goals: string[] = [];
+  goals: string[];
   constructor(private data: DataService) { }
 
   ngOnInit(): void {

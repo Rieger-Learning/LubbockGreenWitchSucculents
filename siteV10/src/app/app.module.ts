@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule, Title} from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { DataService } from './data.service';
 
@@ -23,7 +23,7 @@ import { TodoComponent } from './todo/todo.component';
     FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [DataService],
+  providers: [DataService, Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -8,7 +8,8 @@ import {TodoComponent} from './todo/todo.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
+    data: {animation: 'slideAnimation'}
   },
   {
     path: 'about',
