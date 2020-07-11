@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {Title} from '@angular/platform-browser';
 import {RouterOutlet} from '@angular/router';
-import {slideInAnimation} from './animations/baseRouterAnimations';
+import {slideInAnimation} from './_components/animations/baseRouterAnimations';
 
 @Component({
   selector: 'app-root',

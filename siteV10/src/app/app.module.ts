@@ -4,18 +4,20 @@ import { DataService } from './data.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './_components/home/home.component';
+import { AboutComponent } from './_components/about/about.component';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TodoComponent } from './todo/todo.component';
+import { TodoComponent } from './_components/todo/todo.component';
+import { LoginComponent } from './_components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    TodoComponent
+    TodoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
